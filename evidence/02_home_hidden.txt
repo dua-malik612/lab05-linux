@@ -1,0 +1,17 @@
+total 68
+drwxr-x--- 10 dua-malik612 dua-malik612 4096 Oct 16 04:21 .
+drwxr-xr-x  3 root         root         4096 Sep 14 17:16 ..
+-rw-------  1 dua-malik612 dua-malik612 5219 Oct 10 13:16 .bash_history
+-rw-r--r--  1 dua-malik612 dua-malik612  220 Feb 13  2026 .bash_logout
+-rw-r--r--  1 dua-malik612 dua-malik612 3771 Feb 13  2026 .bashrc
+drwx------  2 dua-malik612 dua-malik612 4096 Sep 14 17:39 .cache
+-rw-rw-r--  1 dua-malik612 dua-malik612  185 Oct 16 04:21 .gitconfig
+-rw-------  1 dua-malik612 dua-malik612   20 Oct 10 11:37 .lesshst
+-rw-r--r--  1 dua-malik612 dua-malik612  807 Feb 13  2026 .profile
+drwx------  2 dua-malik612 dua-malik612 4096 Oct 16 04:19 .ssh
+drwxrwxr-x  3 dua-malik612 dua-malik612 4096 Oct 10 11:50 Assignment01
+drwxrwxr-x  5 dua-malik612 dua-malik612 4096 Oct 10 10:46 CC
+drwxrwxr-x  3 dua-malik612 dua-malik612 4096 Oct 10 11:03 Gitea
+drwxrwxr-x  3 dua-malik612 dua-malik612 4096 Oct 10 12:10 dua-malik612.github.io
+drwxrwxr-x  5 dua-malik612 dua-malik612 4096 Oct 16 04:21 lab05-linux
+drwxrwxr-x  2 dua-malik612 dua-malik612 4096 Sep 18 05:12 mylab
