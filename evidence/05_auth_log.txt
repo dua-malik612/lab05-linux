@@ -1,0 +1,24 @@
+2026-10-16T05:01:42.458283+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/0 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T05:01:43.148826+00:00 ubuntu groupadd[33287]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T05:01:43.156821+00:00 ubuntu groupadd[33287]: group added to /etc/gshadow: name=lab5user
+2026-10-16T05:01:43.162256+00:00 ubuntu groupadd[33287]: new group: name=lab5user, GID=1001
+2026-10-16T05:01:43.371659+00:00 ubuntu useradd[33292]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+2026-10-16T05:26:09.451279+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/2 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T05:27:28.175502+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/2 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T05:29:34.547689+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/2 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T05:29:35.125992+00:00 ubuntu userdel[33769]: delete user 'lab5user'
+2026-10-16T05:29:35.129583+00:00 ubuntu userdel[33769]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T05:29:35.130506+00:00 ubuntu userdel[33769]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T05:29:49.511124+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/2 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T05:29:49.630760+00:00 ubuntu groupadd[33811]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T05:29:49.632743+00:00 ubuntu groupadd[33811]: group added to /etc/gshadow: name=lab5user
+2026-10-16T05:29:49.634095+00:00 ubuntu groupadd[33811]: new group: name=lab5user, GID=1001
+2026-10-16T05:29:49.669453+00:00 ubuntu useradd[33816]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+2026-10-16T05:30:00.242075+00:00 ubuntu passwd[33827]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T05:30:14.276923+00:00 ubuntu chfn[33832]: changed user 'lab5user' information
+2026-10-16T05:30:17.295019+00:00 ubuntu gpasswd[33841]: members of group users set by root to dua-malik612,lab5user
+2026-10-16T05:31:46.095089+00:00 ubuntu su[33902]: (to lab5user) dua-malik612 on pts/2
+2026-10-16T05:31:46.103504+00:00 ubuntu su[33902]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by dua-malik612(uid=1000)
+2026-10-16T05:32:03.331449+00:00 ubuntu su[33902]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T05:33:42.751579+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/2 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T05:33:53.889279+00:00 ubuntu sudo: dua-malik612 : TTY=/dev/pts/2 ; PWD=/home/dua-malik612/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
